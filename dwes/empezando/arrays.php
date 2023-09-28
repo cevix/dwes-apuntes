@@ -71,5 +71,14 @@ foreach ($alumnos4 as $alumno4) {
 	echo $alumno4." || ";
 }
 
+if(!in_array("Aurora,"$alumnos4)){
+	array_push($alumno4, "Aurora");
+}
+
+echo "<br>";
+
+foreach ($alumnos4 as $alumno4) {
+	# code...
+}
 
 ?>

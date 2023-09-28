@@ -19,4 +19,13 @@ while ( $i <= 10) {
 	$i=+1;
 }
 
+echo "<h2>do while</h2>";
+$viernes=FALSE;
+
+do {
+	echo"<p>Buenos días</p>"
+} while ($viernes);
+
+echo "<h2>do while (ejemplo 2)</h2>";
+
 ?>
